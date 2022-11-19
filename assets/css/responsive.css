@@ -1,0 +1,123 @@
+@media all and (max-width: 1199px) {
+    .menu ul li a{
+        margin-left: 15px;
+        font-size:25px;
+    }
+    .menu ul li{
+        padding: 10px 15px;
+    }
+    .menu ul{
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+
+@media all and (max-width: 991px) {
+    .menu ul li{
+        padding: 10px 10px;
+    }
+    .banner-content h1{
+        font-size:50px;
+    }
+    .banner-content p{
+        padding:20px 0;
+    }
+    .banner-content.aos-init.aos-animate {
+        padding-top: 10px;
+    }
+    .features-area{
+        padding-bottom:200px;
+    }
+}
+
+
+
+
+
+
+
+@media all and (max-width: 767px) {
+   
+    .nav-icons{
+        display: block;
+    }
+    
+    .canvas-menu ul{
+        align-items:center;
+        flex-direction: column;
+        
+    }
+    .canvas-menu {
+        display: none;
+        position: absolute;
+        left:0;
+        top:35%;
+        width:100%;
+        background: blue;
+    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner-content.aos-init.aos-animate {
+        text-align: center;
+    }
+    .about-item p{
+        font-size:25px;
+    }
+    .about-section h2{
+        font-size:50px;
+       
+    }
+    .about-section{
+        padding:0 5px;
+    }
+    .header-area{
+        padding-bottom:200px;
+    }
+    .flip-card{
+        margin:auto;
+    }
+    .flip-card-front p{
+        font-size:21px;
+    }
+    .we-know-title h1{
+        font-size:60px;
+        padding: 35px 0;
+    }
+    .we-know-title a{
+        margin-bottom:10rem;
+    }
+    .single-price-item {
+        padding: 0 10px;
+    }
+    .discod-area a{
+        font-size: 25px;
+    }
+    .footer-menu ul li{
+        padding:10px 10px;
+    }
+    .footer-menu ul{
+        display:none;
+        
+    }
+
+
+
+    
+
+
+@media all and (max-width: 575px) {
+    .we-know-title h1{
+        font-size:50px;
+    }
+    .discod-area a{
+        font-size: 20px;
+    }
+}
+
+
